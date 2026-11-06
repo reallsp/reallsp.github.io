@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>李石平 Shiping Li — 个人简历</title>
+<meta name="description" content="李石平（Shiping Li），软件工程师：C++/Qt 跨平台桌面应用开发、工业仿真部署、嵌入式软件开发。现任三一重工嵌入式软件工程师。">
+<style>
+  :root { --paper:#f5f5f5; --ink:#2d3142; --accent:#bf4520; --muted:#6b7280; --card:#ffffff; --line:#e5e0d8; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { background:var(--paper); color:var(--ink); font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC",sans-serif; line-height:1.6; font-size:15px; }
+  .wrap { max-width:860px; margin:0 auto; padding:32px 20px 48px; }
+  header { border-bottom:3px solid var(--accent); padding-bottom:18px; margin-bottom:24px; }
+  h1 { font-size:30px; letter-spacing:2px; }
+  h1 span { font-size:16px; color:var(--muted); letter-spacing:1px; margin-left:10px; font-weight:400; }
+  .tagline { margin-top:6px; font-size:16px; }
+  .contact { margin-top:8px; color:var(--muted); font-size:14px; }
+  .contact a { color:var(--accent); text-decoration:none; }
+  .contact a:hover { text-decoration:underline; }
+  section { background:var(--card); border:1px solid var(--line); border-radius:8px; padding:20px 22px; margin-bottom:16px; }
+  h2 { font-size:17px; color:var(--accent); border-bottom:1px solid var(--line); padding-bottom:6px; margin-bottom:12px; letter-spacing:1px; }
+  h2 small { color:var(--muted); font-size:12px; font-weight:400; margin-left:8px; letter-spacing:0; }
+  h3 { font-size:15.5px; margin:14px 0 2px; }
+  h3:first-of-type { margin-top:0; }
+  .meta { color:var(--muted); font-size:13.5px; margin-bottom:4px; }
+  ul { padding-left:20px; }
+  li { margin-bottom:4px; }
+  .note { display:inline-block; font-size:12px; color:var(--accent); border:1px solid var(--accent); border-radius:4px; padding:0 6px; margin-left:6px; vertical-align:1px; }
+  .chips { display:flex; flex-wrap:wrap; gap:6px; margin-top:4px; }
+  .chip { background:var(--paper); border:1px solid var(--line); border-radius:20px; padding:2px 12px; font-size:13.5px; }
+  .grid { display:grid; grid-template-columns:1fr 1fr; gap:4px 24px; }
+  .grid p { margin-bottom:6px; }
+  .grid b { display:block; font-size:14px; }
+  .grid span { color:var(--muted); font-size:13.5px; }
+  footer { text-align:center; color:var(--muted); font-size:13px; margin-top:8px; }
+  footer a { color:var(--accent); text-decoration:none; }
+  .print-btn { position:fixed; right:20px; bottom:20px; background:var(--accent); color:#fff; border:0; border-radius:24px; padding:10px 18px; font-size:14px; cursor:pointer; box-shadow:0 2px 10px rgba(0,0,0,.18); }
+  .print-btn:hover { opacity:.9; }
+  @media (max-width:640px){ .grid{grid-template-columns:1fr;} h1{font-size:25px;} }
+  @media print{
+    body{background:#fff; font-size:13.5px;}
+    .wrap{max-width:100%; padding:0;}
+    section{border:0; border-radius:0; padding:10px 0; margin-bottom:8px;}
+    .print-btn{display:none;}
+    a{color:var(--ink); text-decoration:none;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>李石平 <span>Shiping Li</span></h1>
+  <p class="tagline">软件工程师 · C++ / Qt / Python · 嵌入式软件开发</p>
+  <p class="contact">苏州 · GitHub：<a href="https://github.com/reallsp">github.com/reallsp</a></p>
+</header>
+
+<section>
+  <h2>个人简介 <small>Summary</small></h2>
+  <p>软件工程师，3 年以上复杂软件系统部署、排障与支持经验，覆盖 Windows、Linux 与 ARM 设备。现任三一重工嵌入式软件工程师，从事挖机智能辅助功能开发。擅长 C++/Qt 跨平台桌面应用开发与异构部署；生产级模型部署经验在工业仿真侧。</p>
+</section>
+
+<section>
+  <h2>核心技能 <small>Core Skills</small></h2>
+  <ul>
+    <li><b>桌面与跨平台：</b>C++/Qt 跨平台桌面应用开发（Windows / Linux）；CMake；异构部署</li>
+    <li><b>工业仿真部署（生产级）：</b>交叉编译、SSH/SCP 远程部署、目标机 Xenomai 实时运行、模型导出工具链（Sysplorer → Simulink / Stateflow、SV-DPI、HILExport）</li>
+    <li><b>AI 推理部署：</b>PyTorch → ONNX → TensorRT / CUDA 全链路（ResNet / YOLO11n / CLIP）+ FastAPI 服务<span class="note">个人学习实践</span></li>
+    <li><b>自动化与运维：</b>Python 诊断与部署自动化、日志分析；Docker；TCP/IP、SSH/FTP 远程管理；结构化排障（日志分析、最小复现、回归测试）</li>
+    <li><b>语言：</b>中文（母语）；英语 CET-6（467 分），英文技术读写，IEEE ICASSP 2022 一作</li>
+  </ul>
+</section>
+
+<section>
+  <h2>工作经历 <small>Experience</small></h2>
+  <h3>三一重工股份有限公司（三一重机中挖研究院）— 嵌入式软件工程师（智能化方向）</h3>
+  <p class="meta">2026.09 – 至今 · 昆山 / 苏州</p>
+  <ul>
+    <li>挖机智能辅助功能开发：嵌入式软件开发、设备端调试与功能验证。</li>
+  </ul>
+  <h3>苏州同元软控信息技术有限公司 — C++ 研发工程师</h3>
+  <p class="meta">2023.07 – 2026 · 苏州</p>
+  <ul>
+    <li>工业仿真软件（Sysplorer）在 Windows、Linux（x86/ARM）、QNX、VxWorks 目标机上的部署与支持：制作部署包，现场与远程解决依赖与环境问题。</li>
+    <li>升级问题的技术接口人：通过日志分析、最小复现、跨平台对比推动问题闭环，并补充自动化回归覆盖。</li>
+    <li>基于 Qt 的桌面运维工具：通过 TCP 远程管理设备（连接、软件部署、启停控制、状态监控、结果回传）。</li>
+    <li>Python 自动化（SSH/FTP）验证流程：批量部署、远程执行、结果收集、跨平台对比。</li>
+    <li>编写并维护交付团队使用的部署手册与排障文档。</li>
+  </ul>
+</section>
+
+<section>
+  <h2>项目经历 <small>Projects</small></h2>
+  <h3>多模型 C++ 推理部署平台 <span class="note">个人项目</span></h3>
+  <p class="meta">PyTorch / ONNX / TensorRT / CUDA / C++17 / Python / Docker · 2026 年夏</p>
+  <ul>
+    <li>端到端模型部署链路：模型导出、C++/Python 运行时、跨语言一致性校验、GPU 性能测试、FastAPI 服务 + Docker 打包，覆盖 ResNet / YOLO11n / CLIP。</li>
+  </ul>
+</section>
+
+<section>
+  <h2>教育背景 <small>Education</small></h2>
+  <h3>硕士，计算机技术 — 苏州大学</h3>
+  <p class="meta">2020 – 2023 · 导师：曹敏</p>
+  <ul>
+    <li>硕士学位论文《基于细粒度语义对齐的文本行人检索研究》。</li>
+    <li>ICASSP 2022 一作、IJCAI 2022 综述二作、授权发明专利（第一发明人）、2022 研究生国家奖学金。</li>
+  </ul>
+  <h3>本科，计算机科学与技术 — 江西师范大学</h3>
+  <p class="meta">2016 – 2020</p>
+  <ul>
+    <li>ACM-ICPC 区域赛奖牌；蓝桥杯 C/C++ 全国二等奖。</li>
+  </ul>
+</section>
+
+<section>
+  <h2>论文与专利 <small>Publications &amp; Patent</small></h2>
+  <ul>
+    <li><b>Learning Semantic-Aligned Feature Representation for Text-based Person Search</b> — IEEE ICASSP 2022（一作），CUHK-PEDES Rank-1 64.13%。</li>
+    <li><b>Image-text Retrieval: A Survey on Recent Research and Development</b> — IJCAI 2022（二作）。</li>
+    <li><b>《融合姿态信息的基于文本的行人图像检索方法和系统》</b> — 授权发明专利 CN116912641B（授权公告日 2026-04-17，第一发明人）。</li>
+  </ul>
+</section>
+
+<section>
+  <h2>荣誉 <small>Honors</small></h2>
+  <div class="chips">
+    <span class="chip">2022 研究生国家奖学金</span>
+    <span class="chip">ACM-ICPC 宁夏站银牌</span>
+    <span class="chip">ACM-ICPC 西安站铜奖</span>
+    <span class="chip">团体程序设计天梯赛全国总决赛二等奖</span>
+    <span class="chip">第九届蓝桥杯全国总决赛 C/C++ 大学 B 组二等奖</span>
+    <span class="chip">CET-6（467 分）</span>
+  </div>
+</section>
+
+<footer>
+  联系方式：GitHub <a href="https://github.com/reallsp">@reallsp</a> · 本页最后更新 2026-11-06
+</footer>
+
+</div>
+<button class="print-btn" onclick="window.print()">打印 / 保存 PDF</button>
+</body>
+</html>
